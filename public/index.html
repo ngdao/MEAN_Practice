@@ -19,6 +19,12 @@
             <th>Number</th>
           </tr>
         </thead>
+        <tbody>
+          <tr ng-repeat="contact in contactlist">
+            <td>{{contact.name}}</td>
+            <td>{{contact.email}}</td>
+            <td>{{contact.number}}</td>
+        </tbody>
     </div>
      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
      <script src="controllers/controller.js"></script>
